@@ -33,4 +33,4 @@ Route::get('/admin/admin', function () {
     "barang" => product::all()
     ]);
 })->name('admin.admin');
-
+// ssd
