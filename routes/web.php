@@ -34,8 +34,3 @@ Route::get('/admin/admin', function () {
     ]);
 })->name('admin.admin');
 
-Route::get('/admin/admin', function () {
-    return view('admin.admin', [
-    "barang" => product::all()
-    ]);
-})->name('admin.admin');
